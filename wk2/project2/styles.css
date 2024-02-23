@@ -1,0 +1,49 @@
+html{
+    font-size: 30px;   
+}
+
+/* using normal class and id */
+
+.color{
+    color: coral
+}
+
+.size{
+    font-size: 2rem;;
+}
+
+.weight{
+    font-weight: 900;
+}
+
+.family{
+    font-family: caveat;
+}
+
+.align{
+    text-align: right;
+}
+
+
+
+
+
+/* using nthchild advanced concept */
+
+/* 
+p:nth-child(2){
+    color: coral;  
+}
+
+p:nth-child(3){
+    font-size: 2rem;
+}
+p:nth-child(4){
+    font-weight: 900;
+}
+p:nth-child(6){
+    text-align: right;
+}
+p:nth-child(5){
+    font-family: caveat;
+} */
