@@ -1,0 +1,44 @@
+body {
+  background-color: #05c46b;
+  margin: 0;
+  padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+form {
+  background-color: white;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 4px 4px 10px gray;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: inline-block;
+  min-width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#select{
+    display: inline-block;
+    min-width: 100%;
+    height: 30px;
+}
+
+textarea{
+    display: inline-block;
+    min-width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: #05c46b;
+  height: 30px;
+}
+
