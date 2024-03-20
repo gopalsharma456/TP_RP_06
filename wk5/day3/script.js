@@ -20,8 +20,11 @@ function test(){
     console.log(`Mark's BMI is: `+ markBmi.toFixed(2))
     console.log(`John's BMI is: ` + johnBmi.toFixed(2))
 
-    let markHigherBMI = markBmi > johnBmi
-    console.log(markHigherBMI)
+    if(markBmi > johnBmi){
+        console.log(`Mark has Higher BMI.`)
+    }else{
+        console.log(`John has Higher BMI.`)
+    }
 
 }
 
