@@ -62,7 +62,7 @@ let calcAverage = (score1, score2, score3) => {
   return res;
 };
 
-let scoreDolphins = calcAverage(10, 10, 10);
+let scoreDolphins = calcAverage(60, 50, 50);
 let scoreKoalas = calcAverage(20, 20, 20);
 
 function checkWinner(avgDolphins, avgKoalas) {
@@ -74,4 +74,4 @@ function checkWinner(avgDolphins, avgKoalas) {
     console.log(`No team wins...`);
   }
 }
-checkWinner(scoreDolphins, scoreKoalas);
+// checkWinner(scoreDolphins, scoreKoalas);
