@@ -83,12 +83,10 @@ li {
   text-align: center;
   margin: 50px 0;
 }
+
 #full-menu p {
   width: 50%;
   margin: 0 auto;
-}
-
-#services {
 }
 
 #card-menu {
@@ -369,7 +367,7 @@ li:hover {
   height: 20px;
 }
 
-.sponcers {
+.sponsors {
   height: 200px;
   width: 100%;
   background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -378,7 +376,7 @@ li:hover {
   align-items: center;
 }
 
-.sponcers h2 {
+.sponsors h2 {
 }
 
 .footer {

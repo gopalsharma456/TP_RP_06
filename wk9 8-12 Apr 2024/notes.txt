@@ -1,0 +1,22 @@
+::::::FlexBOX:::::::
+
+flexbox places content based on available space without manually defining width and position etc.
+
+step 1: container creation (flex) & place elements in it to to apply flex property.
+
+
+step 2: flex-direction((by default row ), column) ---> VERY IMPORTANT for step 3
+
+main axis - flex direction(if row then row)
+
+cross axis - !flex direction(opposite)
+
+
+step 3: alignment(justify-content, align-items)
+
+application of alignment on elements:
+
+justify-content - applies on main axis
+align-items - applies on cross axis
+
+
