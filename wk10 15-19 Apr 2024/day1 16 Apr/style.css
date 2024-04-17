@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3eae5;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  margin: 10% auto;
+}
+
+.image {
+  height: 400px;
+  border-radius: 10px 0 0 10px;
+  width: 300px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTubL4L8BrMzy176GpOw3UxKUgHpi2sOi1LRw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image:hover{
+    scale: 1.05;
+    transition: 1s;
+}
+
+.details {
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.details h1{
+    max-width: 80%;
+}
+
+.product-heading{
+    letter-spacing: 10px;
+}
+
+.product-heading,
+.product-description {
+  padding: 2rem 0;
+}
+
+.price-div {
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+  padding-right: 1.5rem;
+}
+
+.total {
+  text-decoration: line-through;
+}
+
+.addtocart i {
+  height: 20px;
+  margin-right: 1rem;
+}
+
+.addtocart {
+  display: flex;
+  justify-content: center;
+  background-color: #3f8068;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
+.addtocart:hover{
+    scale: 1.05;
+    transition: 0.2s;
+}
