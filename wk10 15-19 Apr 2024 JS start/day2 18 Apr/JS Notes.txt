@@ -1,0 +1,61 @@
+1. Data types - refers to type of date which JS can hold in variable
+
+- string
+- number
+- boolean
+- null
+- undefined
+- symbol
+- bigint
+
+> JS is dynamically typed language means we don't have to predefine memory allocation for length of data.
+
+
+2. Variables - It is used to store data to be referenced and manipulated on temporary basis.
+
+3. Operators - 
+
+	- Assignment operator -> assigns value to variable like x = 10.
+
+	- Arithmatic operator -> performs operations
+
+		multiplication	-> *
+		division 	-> /
+		substraction 	-> -
+		addition 	-> +
+		modulo	 	-> %
+		increment	-> ++
+		decrement	-> --
+
+	- Comparision Operator -> compares & returns boolean
+	
+		greater than	- >
+		less than	- <
+		less than	- <=
+		greater than 	- >=
+		equal to	- ==
+		not equal to	- !=
+		
+		* For type checking
+		strict equal to		- ===
+		strict not equal to	- !==
+		
+	- Logical Operator -> Returns true or false
+	
+		Logical OR	- ||
+		Logical AND	- &&
+		Logical not	- !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
