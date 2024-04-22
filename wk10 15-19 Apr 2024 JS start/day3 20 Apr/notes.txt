@@ -1,0 +1,29 @@
+        //comment
+        // datatypes
+        // string
+        // ""
+        // ''
+        // `` -> Template Literals
+        // number
+
+
+        // BuiltIn functions like console.log, console.alert
+        console.log('name')
+        console.log(456546455)
+        console.log('location')
+        console.log("name's")
+        console.log(`Hello world!`) //ES6
+
+Variable Naming convention should be descriptive like(JS uses camel case)
+var varName = value
+
+var phoneNo; //Variable declaration
+const phoneNo = 88080980 // this will cause error as same variable Name is used 
+
+phoneNo = 8970790907907 //Variable definition
+// this will cause error as different value is assigned to phoneNo i.e. constant
+
+Hoisting
+
+all the Variable declaration and functions are hoisted at the top of the script no matter where they are written
+
