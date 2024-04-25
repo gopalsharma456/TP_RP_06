@@ -11,6 +11,7 @@ console.log(5+4)
 console.log(5+6)
 
 function printName(name){
-    console.log(`Hello, "${name}"`)
+    console.log('Hello, "' + name + '"') // with string concatenation
+    console.log(`Hello, "${name}"`) // with template literals
 }
 printName('James')
