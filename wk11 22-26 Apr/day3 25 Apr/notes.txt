@@ -1,0 +1,16 @@
+:::: Function ::::
+
+function in JS is a reusable block of code to performs a specific tasks, it accepts inputs i.e. parameters, processes them and returns the result.
+
+example :
+
+add to cart option  
+
+
+syntax:
+
+function function_name(parameters){
+    // function body
+}
+
+function_name(arguments) // function call
