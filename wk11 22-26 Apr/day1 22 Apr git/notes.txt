@@ -1,0 +1,21 @@
+GIT
+
+    - version control system
+    - keep track / record maintenance
+    - usually used by coders / programmers
+    - cli tool 
+    - (time travel machine) not really
+
+commands:
+
+    git config user.name                        - returns user name
+    git config user.email                       - returns user email
+    git config --global user.name "user name"   - sets user name
+    git config --global user.email "user email" - sets user email
+    
+    git clone 'link'                            - copies the code in local from cloud
+    git status                                  - check what action to be perform
+    git add filename                            - adds file into staging area
+    git add .                                   - adds all files into staging area
+    git commit -m 'message'                     - adds version or history 
+    git push                                    - uploads files on cloud or gitHub
