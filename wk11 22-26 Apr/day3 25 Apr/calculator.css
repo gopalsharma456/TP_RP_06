@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/627901/pexels-photo-627901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main{
+    height: 50%;
+    width: 30%;
+    margin: 4% auto;
+}
+
+#main > input{
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 30px;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#buttons input{
+    height: 120px;
+    width: 24%;
+    margin: 2px;
+    border-radius: 10%;
+    font-size: 30px;
+}

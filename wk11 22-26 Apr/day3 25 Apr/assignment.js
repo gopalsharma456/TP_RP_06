@@ -20,3 +20,4 @@ function fahrenheitToCelsius(fahrenheitTemperature) {
 }
 
 fahrenheitToCelsius(99);
+
