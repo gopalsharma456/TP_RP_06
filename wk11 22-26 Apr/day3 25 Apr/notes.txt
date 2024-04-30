@@ -14,3 +14,9 @@ function function_name(parameters){
 }
 
 function_name(arguments) // function call
+
+##### Task Review steps ####
+
+- Functionality 
+- syntax / best practices followed ?
+- Possible logical bugs / cases

@@ -1,0 +1,39 @@
+:::::::::: Events   ::::::::::::::::
+1. Events are fired inside the browser window that notifies the changes in browser events.
+
+2. Programmers can create event handling code that will run when event fires allowing web pages responds to the changes.
+
+
+
+:::::::::::JS Events:::::::::::::
+
+
+1. onClick      - triggered when tag/ element clicked
+
+2. onMouseOver  - triggered when mouse over on element
+
+3. onMouseOut   - triggered when mouse is moved out of the element
+
+4. onKeyup      - fired when key is pressed and released
+
+5. onKeydown    - fired when key is pressed down
+
+6. onChanged    - when value is changed in input element 
+
+7. onLoad       - when something is loaded
+
+8. onSubmit     - triggered when submitted something
+
+9. onFocus      - when element is on focus
+
+10. onBlur      - when element is out of focus
+
+
+
+:::::::::::: DOM ::::::::::::::::::::
+
+Document object model : 
+
+1. DOM is programming interface for web documents, it represents the page so that program can change structure, style and html of the page.
+
+2. The DOM represents the document as nodes and objects.
