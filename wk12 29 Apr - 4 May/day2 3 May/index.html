@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Share on Socials</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Social Share</h1>
+
+      <div id="social">
+        <h3>Share this link via</h3>
+        <div id="social-icons">
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/color/48/facebook-new.png"
+            alt="facebook-new"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/color/48/twitter--v1.png"
+            alt="twitter--v1"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/nolan/64/instagram-new.png"
+            alt="instagram-new"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/offices/30/whatsapp.png"
+            alt="whatsapp"
+          />
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/color/48/linkedin.png"
+            alt="linkedin"
+          />
+        </div>
+      </div>
+
+      <div class="copy-link">
+        <h4>Copy Link</h4>
+        <div id="link">
+          <i class="fa-solid fa-link"></i
+          ><input
+            type="text"
+            value="https://www.instagram.com/share"
+            id="myInput"
+          />
+        </div>
+      </div>
+      <button id="btn" onclick="copyFunction()">Copy</button>
+
+      <script>
+        function copyFunction() {
+          var copyText = document.getElementById("myInput");
+          var btn = document.getElementById("btn");
+
+          navigator.clipboard.writeText(copyText.value);
+
+          if (btn.innerText == "Copy") {
+            btn.innerText = "Copied to Clipboard";
+            btn.style.backgroundColor = '#00d21f'
+        }
+        }
+      </script>
+    </div>
+  </body>
+</html>
