@@ -1,0 +1,11 @@
+::::::::::::::::::::Array:::::::::::::::::::::
+
+1. used to store multiple data in single variable so as to iterate or loop through it to access particular value with help of index (starting 0).
+
+2. for good practice store similar type of data in array.
+
+3. e.g. const array_name = [item1, item2, ...];
+
+4. Array is linear data structure where all data are store sequentially, it is a collection of data types stored at contagious memory locations.
+
+5. 
