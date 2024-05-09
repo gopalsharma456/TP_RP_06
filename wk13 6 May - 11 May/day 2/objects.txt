@@ -1,0 +1,8 @@
+::::::::::::::::Objects:::::::::::::::::
+
+1. Objects are used to store data in key value pair format.
+
+2. It is used if data has complexity like multiple data of single entity
+    e.g. movie detail on OTT
+
+3. Objects are faster than array.
