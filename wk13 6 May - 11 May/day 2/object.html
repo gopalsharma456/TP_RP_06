@@ -7,14 +7,14 @@
   </head>
   <body>
     <script>
-      var studentDetails = {
+      var student_Details = {
         name: "Gopal",
         batch_code: "TP_RP_06",
         courses: ["React"],
         placed: false,
 
         addCourse: function (course) {
-          studentDetails.courses.push(course);
+          student_Details.courses.push(course);
         },
       };
       console.log(studentDetails);
@@ -23,16 +23,109 @@
       console.log(studentDetails.courses);
 
       const myObj = {
-
         name: "John",
         age: 30,
         cars: [
-          { name: "Ford", models: ["Fiesta", "Focus", "Mustang"] },
-          { name: "BMW", models: ["320", "X3", "X5"] },
-          { name: "Fiat", models: ["500", "Panda"] },
+          {
+            name: "Ford",
+            models: ["Fiesta", "Focus", "Mustang"],
+            cc: [2000, 1900, 5000],
+          },
+          {
+            name: "BMW",
+            models: ["320", "X3", "X5"],
+            cc: [2500, 3000, 5000],
+          },
+          {
+            name: "Fiat",
+            models: ["500", "Panda"],
+            cc: [800, 1200],
+          },
         ],
       };
-      console.log(myObj.cars[0].name, myObj.cars[0].models[1])
+
+      console.log(myObj);
+
+      var twitter_user = {
+        profile_pic: "",
+        name: "gopal sharma",
+        username: "gopalsharma",
+        bio: "dev & Tech",
+        location: "mumbai",
+        joined_date: "june 2018",
+        verified: true,
+        followers: 1234,
+        following: 2323,
+        posts: [
+          {
+            img_url: "",
+            likes: 0,
+            comments: [],
+            comments_counts: 0,
+            description: "",
+            uploaded_at: "",
+          },
+        ],
+        replies: [
+          {
+            post_url: "",
+            likes: 0,
+            comments: [],
+            commemts_counts: 0,
+            replied_at: "",
+          },
+        ],
+        highlights: [
+          {
+            isPremium_user: true,
+            highlights_post: [
+              {
+                post_url: "",
+                likes: 0,
+                comments: [],
+                commemts_counts: 0,
+                replied_at: "",
+              },
+            ],
+          },
+        ],
+        articles: [
+          {
+            isPremium_user: true,
+            write_article: [
+              {
+                article_url: "",
+                likes: 0,
+                comments: [],
+                commemts_counts: 0,
+                replied_at: "",
+              },
+            ],
+          },
+        ],
+        media: [
+          {
+            img_url: "",
+            likes: 0,
+            comments: [],
+            comments_counts: 0,
+            description: "",
+            uploaded_at: "",
+          },
+        ],
+        likes: [
+          {
+            img_url: "",
+            likes: 0,
+            comments: [],
+            comments_counts: 0,
+            description: "",
+            uploaded_at: "",
+          },
+        ],
+      };
+
+      console.log(twitter_user);
     </script>
   </body>
 </html>
