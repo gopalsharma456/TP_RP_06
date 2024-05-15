@@ -1,80 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.container{
-    width: 100%;
-    min-height: 100vh;
-    padding: 10px;
-    background-color: aquamarine;
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: aquamarine;
 }
 
-.todo-app{
-    width: 100%;
-    max-width: 540px;
-    margin: 100px auto 20px;
-    padding:  40px 30px 70px;
-    background-color: aliceblue;
-    border-radius: 10px;
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  background-color: aliceblue;
+  border-radius: 10px;
 }
 
-.todo-app h2{
-    margin-bottom: 25px;
+.todo-app h2 {
+  margin-bottom: 25px;
 }
 
-#row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-    padding-left: 20px;
-    border-radius: 30px;
-    background-color: lightgray;
+#row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  border-radius: 30px;
+  background-color: lightgray;
 }
 
-input{
-    border: none;
-    outline: none;
-    background: transparent;
-    padding: 20px;
-    font-size: 20px;
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 20px;
+  font-size: 20px;
 }
 
-#addBtn{
-    padding: 20px 30px;
-    border-radius: 30px;
-    font-size: 20px;
-    border: none;
-    background-color: blueviolet;
-    color: white;
-    cursor: pointer;   
+#addBtn {
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
 }
 
-ol li{
-    font-size: 16px;
-    padding: 12px 5px;
-    user-select: none;
-    cursor: pointer;
-    position: relative;
-    background-color: rgb(159, 205, 190);
-    margin-bottom: 10px;
-    border-radius: 10px;
+#taskCount {
+  margin-bottom: 15px;
+  text-align: center;
+  color: green;
 }
 
-span{
-    position: absolute;
-    right: 10px;
-    top: 7px;
-    padding: 5px 10px;
-    background-color: orangered;
-    border-radius: 15px;
-    color: white;
+ol li {
+  font-size: 16px;
+  padding: 12px 15px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  background-color: rgb(159, 205, 190);
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
-ol li.checked{
-    color: rgb(157, 153, 153);
-    text-decoration: line-through;
+span,
+#completedTaskBtn {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px 10px;
+  background-color: orangered;
+  border-radius: 15px;
+  color: white;
+}
+
+#completedTaskBtn {
+  right: 80px;
+}
+
+ol li.checked {
+  color: rgb(157, 153, 153);
+  text-decoration: line-through;
 }
