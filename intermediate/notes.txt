@@ -1,0 +1,23 @@
+Responsive web site 
+
+
+    . use % vw vh instead of pixel whenever required
+    . use rem instead of px for most font size
+    . handle images width for various viewport
+    . handle media viewport at certain width
+
+ES6::::::::::::::
+
+let : 
+    1. it is used to declare variable instead of var
+    2. it is block scope
+    3. can not be accessed outside block scope => {}
+    4. can not redeclare variable
+
+const : 
+    1. variables can not be redeclared, reassigned and are block scope
+    
+spread :
+    1. spreads array or object elements into 
+
+

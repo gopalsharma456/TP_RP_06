@@ -6,8 +6,19 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  /* background-color: chartreuse; */
+:root {
+  --primary_color: rgb(80, 80, 105);
+  --primary-btn-bgcolor: rgb(84, 58, 255);
+  --primary-btn-color: white;
+}
+
+.primary-btn {
+  background-color: var(--primary-btn-bgcolor);
+  color: var(--primary-btn-color);
+}
+
+.container {
+  padding: 10px 20px;
 }
 
 #form-page {
@@ -15,7 +26,9 @@ body {
   padding: 20px;
 }
 
-#username, #password, #button {
+#username,
+#password,
+#button {
   padding: 10px 20px;
   margin-bottom: 10px;
 }
@@ -37,10 +50,10 @@ body {
 }
 
 #button {
-  background-color: rgb(84, 58, 255);
+  background-color: var(--primary-btn-bgcolor);
   border-radius: 5px;
   border: none;
-  color: white;
+  color: var(--primary-btn-color);
 }
 
 /* Navbar started */
@@ -50,7 +63,7 @@ body {
   text-align: center;
   padding: 20px 40px;
   justify-content: space-between;
-  background-color: rgb(80, 80, 105);
+  background-color: var(--primary_color);
   color: white;
   position: fixed;
   left: 20px;
@@ -116,7 +129,7 @@ li {
 
 /* feedback form start */
 
-#feedback-form{
+#feedback-form {
   position: absolute;
   right: 10px;
   left: 10px;
@@ -134,8 +147,6 @@ li {
   padding: 10px 25px;
   border-radius: 10px;
   border: none;
-  background-color: #037ab1;
-  color: white;
   cursor: pointer;
 }
 
@@ -147,4 +158,34 @@ li {
   padding: 10px 20px;
   border-radius: 5px;
   border: 1px solid rgb(152, 152, 152);
+}
+
+.cloud-move-to-right {
+  position: absolute;
+  top: 100px;
+  animation: right-move 2s infinite alternate;
+}
+
+.cloud-move-to-left {
+  position: absolute;
+  top: 50px;
+  animation: left-move 2s infinite alternate;
+}
+
+@keyframes left-move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 40%;
+  }
+}
+
+@keyframes right-move {
+  from {
+    right: 0;
+  }
+  to {
+    right:40%;
+  }
 }
