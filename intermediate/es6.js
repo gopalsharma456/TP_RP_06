@@ -56,8 +56,7 @@ console.log("--------------------------------");
 let names = ["ramesh", "suresh", "mahesh", "mukesh", "dinesh", "somesh"];
 
 const capsArray = names.map((cap) => {
-  // return cap.charAt(0).toUpperCase() + cap.slice(1);
-  return cap.toUpperCase()
+  return cap.charAt(0).toUpperCase() + cap.slice(1);
 });
 
 console.log("Capitalized array elements using map method:", capsArray);
