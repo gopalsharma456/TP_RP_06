@@ -15,9 +15,20 @@ let :
     4. can not redeclare variable
 
 const : 
-    1. variables can not be redeclared, reassigned and are block scope
+    1. variables can not redeclare, reassigned and are block scope
     
 spread :
     1. spreads array or object elements into 
 
+----------------------------------------OOPS-----------------------------------------------------
 
+
+oops is programming model that organizes designed around object and data rather than function and logic.
+
+this approach is well suited for software that is large and complex and actively updated
+
+4 pillars of oops:
+    1. Encapsulation
+    2. Inheritance
+    3. Abstraction
+    4. PolyMorphism 
