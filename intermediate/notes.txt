@@ -32,3 +32,23 @@ this approach is well suited for software that is large and complex and actively
     2. Inheritance
     3. Abstraction
     4. PolyMorphism 
+
+Encapsulation: 
+    . It is defined as the wrapping up of data under single unit.
+    . In this the variables or data of class are hidden from any other class and can be accessed only through any other member function class in which they are declared.
+
+Inheritance: 
+    . The capability of a class do derive properties and characteristic from another class called Inheritance.
+    . types of Inheritance:
+        - single Inheritance : derived from single parent 
+        - Multiple Inheritance : derived from multiple parent
+        - Multilevel Inheritance : one derived from other and other derived from another
+        - Hierarchical Inheritance : parent to multiple child
+
+PolyMorphism:
+    . It means many forms.
+    . defined as the ability of displayed in more than one form.
+
+Abstraction:
+    . It refers to providing only essential information about the data to the outside world hiding the background details or implementation.
+    
